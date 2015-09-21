@@ -14,7 +14,15 @@
 					poster: '//bitdash-a.akamaihd.net/content/tos/poster_tos.jpg'
 				 }
 			};
-			bitdash("player").setup(conf).timeShift(0);;
+			var b = bitdash("player");
+			b.setup(conf).timeShift(0);
+			console.log( b.getTimeShift() );
+			document.getElementById('shift').onclick = function() {
+				var b = bitdash("player");
+				b.timeShift(0);
+				console.log( b.getTimeShift() );
+			}
 		</script>
+		<input type='button' id='shift' value='Shift' />
 	</body>
 </html>
