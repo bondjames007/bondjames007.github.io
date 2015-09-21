@@ -7,11 +7,14 @@
 		<script type="text/javascript">
 			var conf = {
 				key: "90159f888698bfed442640fe72b3f596",
-				source:    {
-				mpd: "http://bitdash-a.akamaihd.net/content/sintel/sintel.mpd"
-			 }
-		};
-		bitdash("player").setup(conf);
+				source: {
+					//mpd: "http://bitdash-a.akamaihd.net/content/sintel/sintel.mpd"
+					dash: '//bitlivedemo-a.akamaihd.net/mpds/stream-exo-liveedge.php?streamkey=bitcodin&#038;inputType=dash',
+					hls: 'https://bitlivedemo-a.akamaihd.net/m3u8s/bitcodin.m3u8',
+					poster: '//bitdash-a.akamaihd.net/content/tos/poster_tos.jpg'
+				 }
+			};
+			bitdash("player").setup(conf);
 		</script>
 	</body>
 </html>
