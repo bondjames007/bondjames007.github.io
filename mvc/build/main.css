@@ -36258,6 +36258,10 @@ sub {
   margin-right: 10px;
 }
 
+ion-label.wrap {
+  white-space: normal;
+}
+
 page-account img {
   max-width: 140px;
   border-radius: 50%;

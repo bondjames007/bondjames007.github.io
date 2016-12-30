@@ -1,179 +1,413 @@
 {
 
   "schedule": [{
-    "date": "2047-05-17",
+    "date": "2017-04-21",
     "groups": [{
-      "time": "8:00 am",
+		"time": "21 апреля 2017 год",
+		  "sessions": [{
+			"name": "ПРЕ-Конгресс",
+			"timeStart": "",
+			"timeEnd": "",
+			"location": "",
+			"tracks": ["ПРЕ-Конгресс"]
+		  }]
+      },
+      {
+      "time": "22 апреля 2017 r. - утро",
       "sessions": [{
-        "name": "Breakfast",
-        "timeStart": "8:00 am",
-        "timeEnd": "9:00 am",
-        "location": "Main hallway",
-        "tracks": ["Food"]
+        "name": "АНЕСТЕЗИОЛОГИЯ",
+        "timeStart": "09:00",
+        "timeEnd": "13:00",
+        "location": "КОНЦЕРТНЫЙ КОМПЛЕКС - Большой зал",
+        "tracks": ["АНЕСТЕЗИОЛОГИЯ"]
+      },
+      {
+        "name": "ТЕРАПИЯ",
+        "timeStart": "09:00",
+        "timeEnd": "13:00",
+        "location": "КОРПУС «ГАММА- ДЕЛЬТА» БИЗНЕС-ЦЕНТР - Москва 1",
+        "tracks": ["ТЕРАПИЯ"]
+      },
+      {
+        "name": "ДЕРМАТОЛОГИЯ",
+        "timeStart": "09:00",
+        "timeEnd": "13:00",
+        "location": "КОРПУС «ГАММА- ДЕЛЬТА» БИЗНЕС-ЦЕНТР - Москва 2",
+        "tracks": ["ДЕРМАТОЛОГИЯ"]
+      },
+      {
+        "name": "КОМПЬЮТЕРНАЯ ТОМОГРАФИЯ",
+        "timeStart": "09:00",
+        "timeEnd": "13:00",
+        "location": "КОРПУС «ГАММА- ДЕЛЬТА» БИЗНЕС-ЦЕНТР - Ростов-Суздаль",
+        "tracks": ["КОМПЬЮТЕРНАЯ ТОМОГРАФИЯ"]
+      },
+      {
+        "name": "МЕНЕДЖМЕНТ",
+        "timeStart": "09:00",
+        "timeEnd": "13:00",
+        "location": "КОРПУС \"ВЕГА\" - Зал «СУРИКОВ»",
+        "tracks": ["МЕНЕДЖМЕНТ"]
+      },
+      {
+        "name": "ЛАБОРАТОРНАЯ ДИАГНОСТИКА",
+        "timeStart": "09:00",
+        "timeEnd": "13:00",
+        "location": "КОРПУС \"ВЕГА\" - Зал «ВАСНЕЦОВ»",
+        "tracks": ["ЛАБОРАТОРНАЯ ДИАГНОСТИКА"]
+      },
+      {
+        "name": "ИММУНОЛОГИЯ",
+        "timeStart": "09:00",
+        "timeEnd": "13:00",
+        "location": "КОРПУС \"ВЕГА\" - Зал «ВДОХНОВЕНИЕ»",
+        "tracks": ["ИММУНОЛОГИЯ"]
+      },
+      {
+        "name": "КОНФЛИКТОЛОГИЯ",
+        "timeStart": "09:00",
+        "timeEnd": "13:00",
+        "location": "КОРПУС \"ВЕГА\" - Зал «ФАНТАЗИЯ»",
+        "tracks": ["КОНФЛИКТОЛОГИЯ"]
       }]
-    }, {
-      "time": "9:00 am",
+    },
+    {
+        "time": "",
+		"sessions": [{
+			"name": "обед",
+			"timeStart": "13:00",
+			"timeEnd": "14:00",
+			"location": "",
+			"tracks": ["обед"]
+		}]
+	},
+    {
+      "time": "22 апреля 2017 r. - вечер",
       "sessions": [{
-        "name": "Introduction to Appcamp.io",
-        "location": "Room 2203",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Ellie Elephant"],
-        "timeStart": "9:00 am",
-        "timeEnd": "9:30 am",
-        "tracks": ["Ionic"]
-      }, {
-        "name": "Getting started with Ionic",
-        "location": "Room 2202",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Ted Turtle"],
-        "timeStart": "9:30 am",
-        "timeEnd": "9:45 am",
-        "tracks": ["Ionic"]
-      }, {
-        "name": "Tooling for Ionic",
-        "location": "Room 2201",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Rachel Rabbit"],
-        "timeStart": "9:45 am",
-        "timeEnd": "10:00 am",
-        "tracks": ["Tooling"]
+        "name": "РЕАНИМАЦИЯ",
+        "timeStart": "14:00",
+        "timeEnd": "17:00",
+        "location": "КОНЦЕРТНЫЙ КОМПЛЕКС - Большой зал",
+        "tracks": ["РЕАНИМАЦИЯ"]
+      },
+      {
+        "name": "ТЕРАПИЯ",
+        "timeStart": "14:00",
+        "timeEnd": "17:00",
+        "location": "КОРПУС «ГАММА- ДЕЛЬТА» БИЗНЕС-ЦЕНТР - Москва 1",
+        "tracks": ["ТЕРАПИЯ"]
+      },
+      {
+        "name": "ДЕРМАТОЛОГИЯ",
+        "timeStart": "14:00",
+        "timeEnd": "17:00",
+        "location": "КОРПУС «ГАММА- ДЕЛЬТА» БИЗНЕС-ЦЕНТР - Москва 2",
+        "tracks": ["ДЕРМАТОЛОГИЯ"]
+      },
+      {
+        "name": "МАГНИТНО-РЕЗОНАНСНАЯ ТОМОГРАФИЯ",
+        "timeStart": "14:00",
+        "timeEnd": "17:00",
+        "location": "КОРПУС «ГАММА- ДЕЛЬТА» БИЗНЕС-ЦЕНТР - Ростов-Суздаль",
+        "tracks": ["МАГНИТНО-РЕЗОНАНСНАЯ ТОМОГРАФИЯ"]
+      },
+      {
+        "name": "МЕНЕДЖМЕНТ",
+        "timeStart": "14:00",
+        "timeEnd": "17:00",
+        "location": "КОРПУС \"ВЕГА\" - Зал «СУРИКОВ»",
+        "tracks": ["МЕНЕДЖМЕНТ"]
+      },
+      {
+        "name": "ЛАБОРАТОРНАЯ ДИАГНОСТИКА",
+        "timeStart": "14:00",
+        "timeEnd": "17:00",
+        "location": "КОРПУС \"ВЕГА\" - Зал «ВАСНЕЦОВ»",
+        "tracks": ["ЛАБОРАТОРНАЯ ДИАГНОСТИКА"]
+      },
+      {
+        "name": "ИММУНОЛОГИЯ",
+        "timeStart": "14:00",
+        "timeEnd": "17:00",
+        "location": "КОРПУС \"ВЕГА\" - Зал «ВДОХНОВЕНИЕ»",
+        "tracks": ["ИММУНОЛОГИЯ"]
+      },
+      {
+        "name": "КОНФЛИКТОЛОГИЯ",
+        "timeStart": "14:00",
+        "timeEnd": "17:00",
+        "location": "КОРПУС \"ВЕГА\" - Зал «ФАНТАЗИЯ»",
+        "tracks": ["КОНФЛИКТОЛОГИЯ"]
+      },
+      {
+        "name": "Официальное открытие Конгресса, церемония вручения Национальной ветеринарной премии «Золотой скальпель»",
+        "timeStart": "19:00",
+        "timeEnd": "",
+        "location": "",
+        "tracks": ["Официальное открытие Конгресса, церемония вручения Национальной ветеринарной премии «Золотой скальпель»"]
       }]
-    }, {
-      "time": "10:00 am",
+    },
+	{
+      "time": "23 апреля 2017 r. - утро",
       "sessions": [{
-        "name": "Migrating to Ionic2",
-        "location": "Room 2201",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Eva Eagle", "Lionel Lion"],
-        "timeStart": "10:00 am",
-        "timeEnd": "10:15 am",
-        "tracks": ["Ionic"]
-      }, {
-        "name": "The evolution of Ionicons",
-        "location": "Room 2202",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Isabella Iguana", "Eva Eagle"],
-        "timeStart": "10:15 am",
-        "timeEnd": "10:30 am",
-        "tracks": ["Design"]
-      }, {
-        "name": "Ionic.io Services",
-        "location": "Room 2202",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Charlie Cheetah"],
-        "timeStart": "10:30 am",
-        "timeEnd": "11:00 am",
-        "tracks": ["Services"]
+        "name": "ХИРУРГИЯ МЯГКИХ ТКАНЕЙ",
+        "timeStart": "09:00",
+        "timeEnd": "13:00",
+        "location": "КОНЦЕРТНЫЙ КОМПЛЕКС - Большой зал",
+        "tracks": ["ХИРУРГИЯ МЯГКИХ ТКАНЕЙ"]
+      },
+      {
+        "name": "КАРДИОЛОГИЯ NAVC",
+        "timeStart": "09:00",
+        "timeEnd": "13:00",
+        "location": "КОРПУС «ГАММА- ДЕЛЬТА» БИЗНЕС-ЦЕНТР - Москва 1",
+        "tracks": ["КАРДИОЛОГИЯ NAVC"]
+      },
+      {
+        "name": "ВИЗУАЛЬНАЯ ДИАГНОСТИКА",
+        "timeStart": "09:00",
+        "timeEnd": "13:00",
+        "location": "КОРПУС «ГАММА- ДЕЛЬТА» БИЗНЕС-ЦЕНТР - Москва 2",
+        "tracks": ["ВИЗУАЛЬНАЯ ДИАГНОСТИКА"]
+      },
+      {
+        "name": "ИНФЕКЦИОННЫЕ БОЛЕЗНИ",
+        "timeStart": "09:00",
+        "timeEnd": "13:00",
+        "location": "КОРПУС «ГАММА- ДЕЛЬТА» БИЗНЕС-ЦЕНТР - Ростов-Суздаль",
+        "tracks": ["ИНФЕКЦИОННЫЕ БОЛЕЗНИ"]
+      },
+      {
+        "name": "РЕГЕНЕРАТИВНАЯ ТЕРАПИЯ",
+        "timeStart": "09:00",
+        "timeEnd": "13:00",
+        "location": "КОРПУС \"ВЕГА\" - Зал «СУРИКОВ»",
+        "tracks": ["РЕГЕНЕРАТИВНАЯ ТЕРАПИЯ"]
+      },
+      {
+        "name": "БОЛЕЗНИ ЛОШАДЕЙ",
+        "timeStart": "09:00",
+        "timeEnd": "13:00",
+        "location": "КОРПУС \"ВЕГА\" - Зал «ВАСНЕЦОВ»",
+        "tracks": ["БОЛЕЗНИ ЛОШАДЕЙ"]
+      },
+      {
+        "name": "МЕНЕДЖМЕНТ",
+        "timeStart": "09:00",
+        "timeEnd": "13:00",
+        "location": "КОРПУС \"ВЕГА\" - Зал «ВДОХНОВЕНИЕ»",
+        "tracks": ["МЕНЕДЖМЕНТ"]
+      },
+      {
+        "name": "КОНФЛИКТОЛОГИЯ",
+        "timeStart": "09:00",
+        "timeEnd": "13:00",
+        "location": "КОРПУС \"ВЕГА\" - Зал «ФАНТАЗИЯ»",
+        "tracks": ["КОНФЛИКТОЛОГИЯ"]
       }]
-    }, {
-      "time": "11:00 am",
+    },
+    {
+		"time": "",
+		"sessions": [{
+			"name": "обед",
+			"timeStart": "13:00",
+			"timeEnd": "14:00",
+			"location": "",
+			"tracks": ["обед"]
+		}]
+	},
+    {
+      "time": "23 апреля 2017 r. - вечер",
       "sessions": [{
-        "name": "Ionic Workshop",
-        "location": "Room 2201",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Karl Kitten", "Lionel Lion"],
-        "timeStart": "11:00 am",
-        "timeEnd": "11:45 am",
-        "tracks": ["Workshop"]
-      }, {
-        "name": "Community Interaction",
-        "location": "Room 2203",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Lionel Lion", "Gino Giraffe"],
-        "timeStart": "11:30 am",
-        "timeEnd": "11:50 am",
-        "tracks": ["Communication"]
-      }, {
-        "name": "Navigation in Ionic",
-        "location": "Room 2203",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Rachel Rabbit", "Eva Eagle"],
-        "timeStart": "11:30 am",
-        "timeEnd": "12:00 pm",
-        "tracks": ["Navigation"]
+        "name": "ХИРУРГИЯ МЯГКИХ ТКАНЕЙ",
+        "timeStart": "14:00",
+        "timeEnd": "18:00",
+        "location": "КОНЦЕРТНЫЙ КОМПЛЕКС - Большой зал",
+        "tracks": ["ХИРУРГИЯ МЯГКИХ ТКАНЕЙ"]
+      },
+      {
+        "name": "КАРДИОЛОГИЯ NAVC",
+        "timeStart": "14:00",
+        "timeEnd": "18:00",
+        "location": "КОРПУС «ГАММА- ДЕЛЬТА» БИЗНЕС-ЦЕНТР - Москва 1",
+        "tracks": ["КАРДИОЛОГИЯ NAVC"]
+      },
+      {
+        "name": "ВИЗУАЛЬНАЯ ДИАГНОСТИКА",
+        "timeStart": "14:00",
+        "timeEnd": "18:00",
+        "location": "КОРПУС «ГАММА- ДЕЛЬТА» БИЗНЕС-ЦЕНТР - Москва 2",
+        "tracks": ["ВИЗУАЛЬНАЯ ДИАГНОСТИКА"]
+      },
+      {
+        "name": "ИНФЕКЦИОННЫЕ БОЛЕЗНИ",
+        "timeStart": "14:00",
+        "timeEnd": "18:00",
+        "location": "КОРПУС «ГАММА- ДЕЛЬТА» БИЗНЕС-ЦЕНТР - Ростов-Суздаль",
+        "tracks": ["ИНФЕКЦИОННЫЕ БОЛЕЗНИ"]
+      },
+      {
+        "name": "НЕВРОЛОГИЯ",
+        "timeStart": "14:00",
+        "timeEnd": "18:00",
+        "location": "КОРПУС \"ВЕГА\" - Зал «СУРИКОВ»",
+        "tracks": ["НЕВРОЛОГИЯ"]
+      },
+      {
+        "name": "БОЛЕЗНИ ЛОШАДЕЙ",
+        "timeStart": "14:00",
+        "timeEnd": "18:00",
+        "location": "КОРПУС \"ВЕГА\" - Зал «ВАСНЕЦОВ»",
+        "tracks": ["БОЛЕЗНИ ЛОШАДЕЙ"]
+      },
+      {
+        "name": "МЕНЕДЖМЕНТ",
+        "timeStart": "14:00",
+        "timeEnd": "18:00",
+        "location": "КОРПУС \"ВЕГА\" - Зал «ВДОХНОВЕНИЕ»",
+        "tracks": ["МЕНЕДЖМЕНТ"]
+      },
+      {
+        "name": "КОНФЛИКТОЛОГИЯ",
+        "timeStart": "14:00",
+        "timeEnd": "18:00",
+        "location": "КОРПУС \"ВЕГА\" - Зал «ФАНТАЗИЯ»",
+        "tracks": ["КОНФЛИКТОЛОГИЯ"]
+      },
+      {
+        "name": "ФУРШЕТ. ГОСТИНИЧНЫЙ КОМПЛЕКС \"ИЗМАЙЛОВО\" КОРПУС \"ГАММА-ДЕЛЬТА\"  РЕСТОРАН \"МИХАИЛ СВЕТЛОВ\" 2-ОЙ ЭТАЖ",
+        "timeStart": "19:00",
+        "timeEnd": "",
+        "location": "",
+        "tracks": ["ФУРШЕТ. ГОСТИНИЧНЫЙ КОМПЛЕКС \"ИЗМАЙЛОВО\" КОРПУС \"ГАММА-ДЕЛЬТА\"  РЕСТОРАН \"МИХАИЛ СВЕТЛОВ\" 2-ОЙ ЭТАЖ"]
       }]
-    }, {
-      "time": "12:00 pm",
+    },
+    {
+      "time": "24 апреля 2017 r. - утро",
       "sessions": [{
-        "name": "Lunch",
-        "location": "Auditorium",
-        "description": "Come grab lunch with all the Ionic fanatics and talk all things Ionic",
-        "timeStart": "12:00 pm",
-        "timeEnd": "1:00 pm",
-        "tracks": ["Food"]
+        "name": "СЕКЦИЯ МОЛОДЫХ УЧЕНЫХ И СТУДЕНТОВ",
+        "timeStart": "09:00",
+        "timeEnd": "13:00",
+        "location": "КОНЦЕРТНЫЙ КОМПЛЕКС - Большой зал",
+        "tracks": ["СЕКЦИЯ МОЛОДЫХ УЧЕНЫХ И СТУДЕНТОВ"]
+      },
+      {
+        "name": "РЕАБИЛИТАЦИЯ",
+        "timeStart": "09:00",
+        "timeEnd": "13:00",
+        "location": "КОРПУС «ГАММА- ДЕЛЬТА» БИЗНЕС-ЦЕНТР - Москва 1",
+        "tracks": ["РЕАБИЛИТАЦИЯ"]
+      },
+      {
+        "name": "ДЕРМАТОЛОГИЯ",
+        "timeStart": "09:00",
+        "timeEnd": "13:00",
+        "location": "КОРПУС «ГАММА- ДЕЛЬТА» БИЗНЕС-ЦЕНТР - Москва 2",
+        "tracks": ["ДЕРМАТОЛОГИЯ"]
+      },
+      {
+        "name": "ЭКЗОТЫ",
+        "timeStart": "09:00",
+        "timeEnd": "13:00",
+        "location": "КОРПУС «ГАММА- ДЕЛЬТА» БИЗНЕС-ЦЕНТР - Ростов-Суздаль",
+        "tracks": ["ЭКЗОТЫ"]
+      },
+      {
+        "name": "ОФТАЛЬМОЛОГИЯ",
+        "timeStart": "09:00",
+        "timeEnd": "13:00",
+        "location": "КОРПУС \"ВЕГА\" - Зал «СУРИКОВ»",
+        "tracks": ["ОФТАЛЬМОЛОГИЯ"]
+      },
+      {
+        "name": "РЕПРОДУКЦИЯ",
+        "timeStart": "09:00",
+        "timeEnd": "13:00",
+        "location": "КОРПУС \"ВЕГА\" - Зал «ВАСНЕЦОВ»",
+        "tracks": ["РЕПРОДУКЦИЯ"]
+      },
+      {
+        "name": "ЭНДОКРИНОЛОГИЯ",
+        "timeStart": "09:00",
+        "timeEnd": "13:00",
+        "location": "КОРПУС \"ВЕГА\" - Зал «ВДОХНОВЕНИЕ»",
+        "tracks": ["ЭНДОКРИНОЛОГИЯ"]
+      },
+      {
+        "name": "КРУГЛЫЕ СТОЛЫ",
+        "timeStart": "09:00",
+        "timeEnd": "13:00",
+        "location": "КОРПУС \"ВЕГА\" - Зал «ФАНТАЗИЯ»",
+        "tracks": ["КРУГЛЫЕ СТОЛЫ"]
       }]
-    }, {
-      "time": "1:00 pm",
+    },
+    {
+		"time": "",
+		"sessions": [{
+			"name": "обед",
+			"timeStart": "13:00",
+			"timeEnd": "14:00",
+			"location": "",
+			"tracks": ["обед"]
+		}]
+	},
+    {
+      "time": "24 апреля 2017 r. - вечер",
       "sessions": [{
-        "name": "Ionic in the Enterprise",
-        "location": "Room 2201",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Paul Puppy"],
-        "timeStart": "1:00 pm",
-        "timeEnd": "1:15 pm",
-        "tracks": ["Communication"]
-      }, {
-        "name": "Ionic Worldwide",
-        "location": "Room 2201",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Gino Giraffe"],
-        "timeStart": "1:15 pm",
-        "timeEnd": "1:30 pm",
-        "tracks": ["Communication"]
-      }, {
-        "name": "The Ionic package service",
-        "location": "Room 2203",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Molly Mouse", "Burt Bear"],
-        "timeStart": "1:30 pm",
-        "timeEnd": "2:00 pm",
-        "tracks": ["Services"]
-      }]
-    }, {
-      "time": "2:00 pm",
-      "sessions": [{
-        "name": "Push Notifications in Ionic",
-        "location": "Room 2202",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Burt Bear", "Charlie Cheetah"],
-        "timeStart": "2:00 pm",
-        "timeEnd": "2:30 pm",
-        "tracks": ["Services"]
-      }, {
-        "name": "Ionic Documentation",
-        "location": "Room 2202",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Donald Duck"],
-        "timeStart": "2:30 pm",
-        "timeEnd": "2:45 pm",
-        "tracks": ["Documentation"]
-      }, {
-        "name": "UX planning in Ionic",
-        "location": "Room 2203",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Isabella Iguana", "Ellie Elephant"],
-        "timeStart": "2:45 pm",
-        "timeEnd": "3:00 pm",
-        "tracks": ["Design"]
-      }]
-    }, {
-      "time": "3:00",
-      "sessions": [{
-        "name": "Directives in Ionic",
-        "location": "Room 2201",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Ted Turtle"],
-        "timeStart": "3:00 pm",
-        "timeEnd": "3:30 pm",
-        "tracks": ["Angular"]
-      }, {
-        "name": "Mobile States",
-        "location": "Room 2202",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Rachel Rabbit"],
-        "timeStart": "3:30 pm",
-        "timeEnd": "3:45 pm",
-        "tracks": ["Navigation"]
+        "name": "СЕКЦИЯ МОЛОДЫХ УЧЕНЫХ И СТУДЕНТОВ",
+        "timeStart": "14:00",
+        "timeEnd": "18:00",
+        "location": "КОНЦЕРТНЫЙ КОМПЛЕКС - Большой зал",
+        "tracks": ["СЕКЦИЯ МОЛОДЫХ УЧЕНЫХ И СТУДЕНТОВ"]
+      },
+      {
+        "name": "ФИЗИОТЕРАПИЯ",
+        "timeStart": "14:00",
+        "timeEnd": "18:00",
+        "location": "КОРПУС «ГАММА- ДЕЛЬТА» БИЗНЕС-ЦЕНТР - Москва 1",
+        "tracks": ["ФИЗИОТЕРАПИЯ"]
+      },
+      {
+        "name": "РЕНТГЕНОЛОГИЯ",
+        "timeStart": "14:00",
+        "timeEnd": "18:00",
+        "location": "КОРПУС «ГАММА- ДЕЛЬТА» БИЗНЕС-ЦЕНТР - Москва 2",
+        "tracks": ["РЕНТГЕНОЛОГИЯ"]
+      },
+      {
+        "name": "ЭКЗОТЫ",
+        "timeStart": "14:00",
+        "timeEnd": "18:00",
+        "location": "КОРПУС «ГАММА- ДЕЛЬТА» БИЗНЕС-ЦЕНТР - Ростов-Суздаль",
+        "tracks": ["ЭКЗОТЫ"]
+      },
+      {
+        "name": "ОФТАЛЬМОЛОГИЯ",
+        "timeStart": "14:00",
+        "timeEnd": "18:00",
+        "location": "КОРПУС \"ВЕГА\" - Зал «СУРИКОВ»",
+        "tracks": ["ОФТАЛЬМОЛОГИЯ"]
+      },
+      {
+        "name": "ЗООПСИХОЛОГИЯ",
+        "timeStart": "14:00",
+        "timeEnd": "18:00",
+        "location": "КОРПУС \"ВЕГА\" - Зал «ВАСНЕЦОВ»",
+        "tracks": ["ЗООПСИХОЛОГИЯ"]
+      },
+      {
+        "name": "ЭНДОКРИНОЛОГИЯ",
+        "timeStart": "14:00",
+        "timeEnd": "18:00",
+        "location": "КОРПУС \"ВЕГА\" - Зал «ВДОХНОВЕНИЕ»",
+        "tracks": ["ЭНДОКРИНОЛОГИЯ"]
+      },
+      {
+        "name": "КРУГЛЫЕ СТОЛЫ",
+        "timeStart": "14:00",
+        "timeEnd": "18:00",
+        "location": "КОРПУС \"ВЕГА\" - Зал «ФАНТАЗИЯ»",
+        "tracks": ["КРУГЛЫЕ СТОЛЫ"]
       }]
     }]
   }],
