@@ -36484,6 +36484,10 @@ page-speaker-list .speaker-card ion-card-content .list ion-item-content {
   }
 }
 
+page-speaker-list h3.wrap {
+  white-space: pre-line;
+}
+
 .tabbar {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
