@@ -36463,6 +36463,10 @@ ion-item[track=navigation] .dot {
   color: #60646B;
 }
 
+.speaker-detail p.wrap {
+  white-space: pre-line;
+}
+
 page-speaker-list .scroll-content {
   background: #EDEDED;
 }
@@ -36486,6 +36490,11 @@ page-speaker-list .speaker-card ion-card-content .list ion-item-content {
 
 page-speaker-list h3.wrap {
   white-space: pre-line;
+}
+
+page-speaker-list .item-md ion-avatar img {
+  height: auto;
+  max-height: 56px;
 }
 
 .tabbar {
