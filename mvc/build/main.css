@@ -36454,6 +36454,20 @@ ion-item[track=navigation] .dot {
   margin-right: 10px;
 }
 
+#map_canvas {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+
+#map_canvas.show-map {
+  opacity: 1;
+}
+
+ion-app._gmaps_cdv_ .nav-decor {
+  background-color: transparent !important;
+}
+
 .speaker-detail img {
   max-width: 140px;
   border-radius: 50%;
