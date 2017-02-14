@@ -36267,6 +36267,14 @@ page-account img {
   border-radius: 50%;
 }
 
+page-events ion-card-content .item h3:first-child {
+  margin: 0;
+}
+
+page-events-detail ion-content img {
+  margin: 3px;
+}
+
 page-user .logo {
   padding: 20px 0;
   min-height: 200px;
