@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta http-equiv="Content-Security-Policy" content="
         default-src 'self' data: gap:
-            https://dermboardreview.github.io https://ssl.gstatic.com;
+            http://dermboardreview.github.io http://ssl.gstatic.com;
         script-src 'self' 'unsafe-inline' 'unsafe-eval'
-            http://localhost:* https://*.gstatic.com https://*.googleapis.com;
-        img-src 'self' data: https://*.gstatic.com https://*.googleapis.com;
+            http://localhost:* http://*.gstatic.com http://*.googleapis.com;
+        img-src 'self' data: http://*.gstatic.com http://*.googleapis.com;
         connect-src 'self' *;
-        style-src 'self' 'unsafe-inline' https://*.gstatic.com https://*.googleapis.com;
-        font-src 'self' https://*.gstatic.com https://*.googleapis.com;
+        style-src 'self' 'unsafe-inline' http://*.gstatic.com http://*.googleapis.com;
+        font-src 'self' http://*.gstatic.com http://*.googleapis.com;
         media-src *">
   <meta name="format-detection" content="telephone=no">
   <meta name="msapplication-tap-highlight" content="no">
@@ -49,7 +49,7 @@
   <script src="build/main.js"></script>
 
   <!-- google maps script is loaded last as to not block rendering -->
-  <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBgwigNnQbdJfTIB6jUnIJmSpDKVdQb3Ec&language=ru-RU" defer async></script>
+  <script src="http://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBgwigNnQbdJfTIB6jUnIJmSpDKVdQb3Ec&language=ru-RU" defer async></script>
  
 
   
